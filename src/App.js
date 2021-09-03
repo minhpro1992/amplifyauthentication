@@ -17,7 +17,7 @@ const App = () => {
   const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [code, setCode] = useState("");
-  const [step, setStep] = useState(2);
+  const [step, setStep] = useState(0);
 
   const onChange = (e) => {
     switch (e.target.name) {
